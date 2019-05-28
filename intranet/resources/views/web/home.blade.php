@@ -24,15 +24,6 @@
         <script type="text/javascript" src="{{ asset('js') }}/swiper.min.js"></script>
         <script type="text/javascript" src="{{ asset('js') }}/jquery.fancybox.min.js"></script>
         <script type="text/javascript" src="{{ asset('js') }}/scripts.js"></script>
-
-        <!--link rel="https://api.w.org/" href="http://agilezando.com.br/fyi/wp-json/">
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://agilezando.com.br/fyi/xmlrpc.php?rsd">
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://agilezando.com.br/fyi/wp-includes/wlwmanifest.xml">
-
-        <link rel="canonical" href="http://agilezando.com.br/fyi/">
-        <link rel="shortlink" href="http://agilezando.com.br/fyi/">
-        <link rel="alternate" type="application/json+oembed" href="http://agilezando.com.br/fyi/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fagilezando.com.br%2Ffyi%2F">
-        <link rel="alternate" type="text/xml+oembed" href="http://agilezando.com.br/fyi/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fagilezando.com.br%2Ffyi%2F&amp;format=xml"!-->
     </head>
     <body>
         <nav class="navbar navbar-expand-lg fixed-top navbar-shrink" id="mainNav">
@@ -186,7 +177,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 zi-1">
                         <div class="image rounded">
-                            <img src="./FYi Intercâmbios_files/high-school.png">
+                            <img src="{{ asset('img') }}/high-school.png">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 col-xl-5 green-left">
@@ -284,7 +275,7 @@
                         <h3 class="text-bold primary-font primary-color">Somos a FYI Intercâmbios</h3>
 
                         <div class="img rounded">
-                            <img width="1587" height="562" src="./FYi Intercâmbios_files/quem-somos.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="http://agilezando.com.br/fyi/wp-content/uploads/2019/03/quem-somos.png 1587w, http://agilezando.com.br/fyi/wp-content/uploads/2019/03/quem-somos-300x106.png 300w, http://agilezando.com.br/fyi/wp-content/uploads/2019/03/quem-somos-768x272.png 768w, http://agilezando.com.br/fyi/wp-content/uploads/2019/03/quem-somos-1024x363.png 1024w" sizes="(max-width: 1587px) 100vw, 1587px"> </div>
+                            <img width="1587" height="562" src="{{ asset('img') }}/quem-somos.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="http://agilezando.com.br/fyi/wp-content/uploads/2019/03/quem-somos.png 1587w, http://agilezando.com.br/fyi/wp-content/uploads/2019/03/quem-somos-300x106.png 300w, http://agilezando.com.br/fyi/wp-content/uploads/2019/03/quem-somos-768x272.png 768w, http://agilezando.com.br/fyi/wp-content/uploads/2019/03/quem-somos-1024x363.png 1024w" sizes="(max-width: 1587px) 100vw, 1587px"> </div>
 
                         <p class="secondary-font">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of</p>
 
@@ -340,7 +331,7 @@
                             <div class="col-12 col-lg-6">
                                 <div class="depoimento">
 
-                                    <img src="./FYi Intercâmbios_files/depoimento-2.png">
+                                    <img src="{{ asset('img') }}/depoimento-2.png">
 
                                     <div class="infos d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-start">
                                         <p class="texto secondary-font">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -354,7 +345,7 @@
                             <div class="col-12 col-lg-6">
                                 <div class="depoimento">
 
-                                    <img src="./FYi Intercâmbios_files/depoimento-2.png">
+                                    <img src="{{ asset('img') }}/depoimento-2.png">
 
                                     <div class="infos d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-start">
                                         <p class="texto secondary-font">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -563,19 +554,19 @@
 
                             <div class="col-12 col-lg-4">
                                 <div class="selo">
-                                    <img src="./FYi Intercâmbios_files/selo-cadatur.png">
+                                    <img src="{{ asset('img') }}/selo-cadatur.png">
                                 </div>
                             </div>
 
                             <div class="col-12 col-lg-4">
                                 <div class="selo">
-                                    <img src="./FYi Intercâmbios_files/selo-icef.png">
+                                    <img src="{{ asset('img') }}/selo-icef.png">
                                 </div>
                             </div>
 
                             <div class="col-12 col-lg-4">
                                 <div class="selo">
-                                    <img src="./FYi Intercâmbios_files/selo-umkc.png">
+                                    <img src="{{ asset('img') }}/selo-umkc.png">
                                 </div>
                             </div>
 
