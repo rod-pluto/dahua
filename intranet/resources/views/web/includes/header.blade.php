@@ -5,7 +5,7 @@
                     <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="background-image: url(&quot;http://agilezando.com.br/fyi/wp-content/uploads/2019/03/banner.jpg&quot;); width: 1351px;" data-swiper-slide-index="1">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 description d-flex flex-column justify-content-center align-items-start">
+                                <div class="col-12 description d-flex flex-column justify-content-center align-items-end">
                                     <h3>Exemplo 2</h3>
                                     <h1>NÓS PLANEJAMOS,<br>VOCÊ SÓ SE PREOCUPA<br>EM ESTUDAR</h1>
                                     <a href="http://agilezando.com.br/fyi/high-school/" class="button-orange">Explorar</a>
@@ -17,7 +17,7 @@
                     <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" style="background-image: url(&quot;http://agilezando.com.br/fyi/wp-content/uploads/2019/03/banner.jpg&quot;); width: 1351px;" data-swiper-slide-index="0">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 description d-flex flex-column justify-content-center align-items-start">
+                                <div class="col-12 description d-flex flex-column justify-content-center align-items-end">
                                     <h3>High School</h3>
                                     <h1>NÓS PLANEJAMOS,<br>VOCÊ SÓ SE PREOCUPA<br>EM ESTUDAR</h1>
                                     <a href="http://localhost:9999/high-school/" class="button-orange">Explorar</a>
@@ -29,7 +29,7 @@
                     <div class="swiper-slide swiper-slide-active" style="background-image: url(&quot;http://agilezando.com.br/fyi/wp-content/uploads/2019/03/banner.jpg&quot;); width: 1351px;" data-swiper-slide-index="1">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 description d-flex flex-column justify-content-center align-items-start">
+                                <div class="col-12 description d-flex flex-column justify-content-center align-items-end">
                                     <h3>Exemplo 2</h3>
                                     <h1>NÓS PLANEJAMOS,<br>VOCÊ SÓ SE PREOCUPA<br>EM ESTUDAR</h1>
                                     <a href="http://agilezando.com.br/fyi/high-school/" class="button-orange">Explorar</a>
@@ -41,7 +41,7 @@
                     <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" style="background-image: url(&quot;http://agilezando.com.br/fyi/wp-content/uploads/2019/03/banner.jpg&quot;); width: 1351px;" data-swiper-slide-index="0">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 description d-flex flex-column justify-content-center align-items-start">
+                                <div class="col-12 description d-flex flex-column justify-content-center align-items-end">
                                     <h3>High School</h3>
                                     <h1>NÓS PLANEJAMOS,<br>VOCÊ SÓ SE PREOCUPA<br>EM ESTUDAR</h1>
                                     <a href="http://localhost:9999/high-school/" class="button-orange">Explorar</a>
