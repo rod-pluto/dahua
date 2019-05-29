@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>FYi Intercâmbios</title>
+        <title>{{ setting('site.title') }}</title>
 
         <meta name="robots" content="noindex,follow">
         <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
@@ -26,148 +26,10 @@
         <script type="text/javascript" src="{{ asset('js') }}/scripts.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-shrink" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#">
-                    <img src="{{ asset('img') }}/logo-white.png" class="logo">
-                </a>
 
-                <span class="nav-slogan py-3 pr-0 primary-font">For Your Information</span>
-                <a class="lupa d-block d-lg-none" href="http://agilezando.com.br/fyi/#"></a>
-                <button class="navbar-toggler navbar-toggler-right bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                </button>
+        @include('web.includes.top-nav')
 
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1 px-0 px-lg-1">
-                            <a class="nav-link py-3 pl-0 pr-0 rounded js-scroll-trigger primary-font" href="http://agilezando.com.br/fyi/quem-somos/">Institucional</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1 px-0 px-lg-1">
-                            <a class="nav-link py-3 pl-0 pr-0 rounded js-scroll-trigger primary-font" href="http://agilezando.com.br/fyi/high-school/">High School</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1 px-0 px-lg-1">
-                            <a class="nav-link py-3 pl-0 pr-0 rounded js-scroll-trigger primary-font" href="http://agilezando.com.br/fyi/cursos/">Cursos</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1 px-0 px-lg-1">
-                            <a class="nav-link py-3 pl-0 pr-0 rounded js-scroll-trigger primary-font" href="http://agilezando.com.br/fyi/universidades/">Universidades</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1 px-0 px-lg-1">
-                            <a class="nav-link py-3 pl-0 pr-0 rounded js-scroll-trigger primary-font" href="http://agilezando.com.br/fyi/trabalhos/">Trabalhos</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1 px-0 px-lg-1">
-                            <a class="nav-link py-3 pl-0 pr-0 rounded js-scroll-trigger primary-font" href="http://agilezando.com.br/fyi/seguros/">Seguros</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1 px-0 px-lg-1">
-                            <a class="nav-link py-3 pl-0 pr-0 rounded js-scroll-trigger primary-font" href="http://agilezando.com.br/fyi/contato/">Contato</a>
-                        </li>
-
-                        <li class="sep mx-lg-3"></li>
-
-                        <li class="nav-item mx-0 mx-lg-1 px-0 phone">
-                            <a class="nav-link py-3 rounded" href="tel:+551177151486"><span class="primary-font">Tel.</span> <span class="secondary-font">11. 7715-1486</span></a>
-                        </li>
-
-                        <li class="lupa">
-                            <a class="nav-link py-3 rounded-circle d-none d-lg-block" href="http://agilezando.com.br/fyi/#"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <header class="masthead bg-primary text-white text-center">
-            <div class="slide-home">
-                <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
-                    <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-2702px, 0px, 0px);">
-                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="background-image: url(&quot;http://agilezando.com.br/fyi/wp-content/uploads/2019/03/banner.jpg&quot;); width: 1351px;" data-swiper-slide-index="1">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 description d-flex flex-column justify-content-center align-items-start">
-                                        <h3>Exemplo 2</h3>
-                                        <h1>NÓS PLANEJAMOS,<br>VOCÊ SÓ SE PREOCUPA<br>EM ESTUDAR</h1>
-                                        <a href="http://agilezando.com.br/fyi/high-school/" class="button-orange">Explorar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" style="background-image: url(&quot;http://agilezando.com.br/fyi/wp-content/uploads/2019/03/banner.jpg&quot;); width: 1351px;" data-swiper-slide-index="0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 description d-flex flex-column justify-content-center align-items-start">
-                                        <h3>High School</h3>
-                                        <h1>NÓS PLANEJAMOS,<br>VOCÊ SÓ SE PREOCUPA<br>EM ESTUDAR</h1>
-                                        <a href="http://localhost:9999/high-school/" class="button-orange">Explorar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide swiper-slide-active" style="background-image: url(&quot;http://agilezando.com.br/fyi/wp-content/uploads/2019/03/banner.jpg&quot;); width: 1351px;" data-swiper-slide-index="1">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 description d-flex flex-column justify-content-center align-items-start">
-                                        <h3>Exemplo 2</h3>
-                                        <h1>NÓS PLANEJAMOS,<br>VOCÊ SÓ SE PREOCUPA<br>EM ESTUDAR</h1>
-                                        <a href="http://agilezando.com.br/fyi/high-school/" class="button-orange">Explorar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" style="background-image: url(&quot;http://agilezando.com.br/fyi/wp-content/uploads/2019/03/banner.jpg&quot;); width: 1351px;" data-swiper-slide-index="0">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 description d-flex flex-column justify-content-center align-items-start">
-                                        <h3>High School</h3>
-                                        <h1>NÓS PLANEJAMOS,<br>VOCÊ SÓ SE PREOCUPA<br>EM ESTUDAR</h1>
-                                        <a href="http://localhost:9999/high-school/" class="button-orange">Explorar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                </div>
-
-                <div class="controls">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div-- class="control">
-                                    <!--div class="socials">
-                                        <a class="social fb" href="https://facebook.com/fyintercambios">
-                                            <div class="link">facebook.com/fyintercambios</div>
-                                        </a>
-                                        <a class="social in" href="https://instagram.com/fyintercambios">
-                                            <div class="link">instagram.com/fyintercambios</div>
-                                        </a>
-                                        <a class="social yt" href="https://youtube.com/fyintercambios">
-                                            <div class="link">youtube.com/fyintercambios</div>
-                                        </a>
-                                        <a class="social li" href="https://linkedin.com/fyintercambios">
-                                            <div class="link">linkedin.com/fyintercambios</div>
-                                        </a>
-                                    </div-->
-
-                                    <div class="navigation">
-                                        <a href="http://agilezando.com.br/fyi/#" class="prev" tabindex="0" role="button" aria-label="Previous slide"></a>
-                                        <a href="http://agilezando.com.br/fyi/#" class="next" tabindex="0" role="button" aria-label="Next slide"></a>
-                                    </div>
-                                </div>
-
-                                <div class="slide_index">
-                                    <span class="text secondary-font">Slide</span>
-                                    <span class="number current text-extra secondary-font">02</span>
-                                    <span class="number text-extra secondary-font">02</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+        @include('web.includes.header')
 
         <!-- Main Content -->
 
@@ -183,10 +45,10 @@
                     <div class="col-12 col-lg-6 col-xl-5 green-left">
                         <div class="green text-white d-flex flex-column justify-content-center align-items-start">
                             <h3 class="text-bold primary-font">High School</h3>
-        
+
                             <p class="secondary-font">O programa de High School é um dos mais tradicionais modelos de intercâmbio de adolescentes e os seus benefícios para a vida toda são indiscutíveis:</p>
                             <p class="secondary-font">viver em um país estrangeiro, conviver com a família hospedeira ou a comunidade escolar</p>
-        
+
                             <a class="button-orange" href="http://agilezando.com.br/fyi/high-school">Saiba Mais</a>
                         </div>
                     </div>
@@ -317,6 +179,7 @@
             </div>
         </section>
 
+        <!-- Depoimentos -->
         <section id="depoimentos">
             <div class="container">
 
@@ -363,6 +226,7 @@
             </div>
         </section>
 
+        <!-- tv -->
         <section id="tv">
 
             <div class="container">
@@ -484,6 +348,7 @@
 
         </section>
 
+        <!-- Blog -->
         <section id="blog">
             <div class="container">
                 <div class="row">
@@ -541,6 +406,7 @@
             </div>
         </section>
 
+        <!-- Selos -->
         <section id="selos">
             <div class="container">
                 <div class="row">
@@ -577,6 +443,7 @@
 
         </section>
 
+        <!-- Instagram -->
         <section id="instagram">
             <div class="container">
                 <div class="row">
@@ -636,6 +503,7 @@
             </div>
         </section>
 
+        <!-- Newsletter -->
         <section id="newsletter">
             <div class="container">
                 <div class="row">
@@ -680,113 +548,7 @@
 
         <!-- Footer -->
 
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 logo-footer">
-
-                        <a class="logo" href="http://agilezando.com.br/fyi/#">
-                            <img src="{{ asset('img') }}/logo-footer.png">
-                        </a>
-
-                        <ul class="socials d-block d-lg-none text-center float-none mb-mobile">
-                            <li class="fb">
-                                <a href="http://agilezando.com.br/fyi/"></a>
-                            </li>
-
-                            <li class="li">
-                                <a href="http://agilezando.com.br/fyi/"></a>
-                            </li>
-
-                            <li class="in">
-                                <a href="http://agilezando.com.br/fyi/"></a>
-                            </li>
-
-                            <li class="yt">
-                                <a href="http://agilezando.com.br/fyi/"></a>
-                            </li>
-                        </ul>
-
-                        <ul class="buttons clearfix mb-mobile">
-                            <li class="wt">
-                                <span class="title secondary-font text-bold primary-color">WhatsApp</span>
-                                <span class="value secondary-font">(11) 97273-8899</span>
-                            </li>
-
-                            <li class="phone">
-                                <span class="title secondary-font text-bold primary-color">Telefone</span>
-                                <span class="value secondary-font">(11) 4301-1110</span>
-                            </li>
-
-                            <li class="mail">
-                                <span class="title secondary-font text-bold primary-color">E-mail</span>
-                                <span class="value secondary-font">falae@intercambio.com.br</span>
-                            </li>
-
-                        </ul>
-
-                        <ul class="socials d-none d-lg-inline-block float-right clearfix mb-mobile">
-                            <li class="fb">
-                                <a href="http://agilezando.com.br/fyi/"></a>
-                            </li>
-
-                            <li class="li">
-                                <a href="http://agilezando.com.br/fyi/"></a>
-                            </li>
-
-                            <li class="in">
-                                <a href="http://agilezando.com.br/fyi/"></a>
-                            </li>
-
-                            <li class="yt">
-                                <a href="http://agilezando.com.br/fyi/"></a>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="menu-footer">
-                            <div class="menu-principal-container">
-                                <ul id="menu-principal" class="menu">
-                                    <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://agilezando.com.br/fyi/quem-somos/">Institucional</a></li>
-                                    <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://agilezando.com.br/fyi/high-school/">High School</a></li>
-                                    <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://agilezando.com.br/fyi/cursos/">Cursos</a></li>
-                                    <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://agilezando.com.br/fyi/universidades/">Universidades</a></li>
-                                    <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="http://agilezando.com.br/fyi/trabalhos/">Trabalhos</a></li>
-                                    <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="http://agilezando.com.br/fyi/seguros/">Seguros</a></li>
-                                    <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://agilezando.com.br/fyi/contato/">Contato</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <ul class="buttons">
-                            <li class="address">
-                                <span class="title secondary-font text-bold primary-color">Endereço</span>
-                                <span class="value secondary-font">Rua Padre Marchetti, 218 Ipiranga <br>São Paulo - SP</span>
-                            </li>
-
-                            <li class="horary">
-                                <span class="title secondary-font text-bold primary-color">Horários de Atendimento</span>
-                                <span class="value secondary-font">De segunda a sexta <br>das 9:30h às 18:30h</span>
-                            </li>
-                        </ul>
-
-                        <a class="call">Nós te ligamos</a>
-
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="container">
-                        <div class="col-12 assinatura">
-                            <a class="agile"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        @include('web.includes.footer')
 
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
         <div class="scroll-to-top d-lg-none position-fixed ">

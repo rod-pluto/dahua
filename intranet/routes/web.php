@@ -12,3 +12,8 @@
 */
 
 Route::get('/', 'Web\HomeController@index')->name('web.home');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
