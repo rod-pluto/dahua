@@ -226,7 +226,7 @@ a:hover {
     content: '';
     width: 38px;
     height: 38px;
-    background-color: #0065ae;
+    background-color: #e20017;
     position: absolute;
     display: block;
     border-radius: 50%;
@@ -253,7 +253,7 @@ section#title .button-rounded {
 #mainNav {
     font-weight: 700;
     font-family: 'Montserrat';
-    background-color: #0da28c;
+    background-color: #ebebeb;
 }
 
 #mainNav .container {
@@ -279,7 +279,7 @@ body.home #mainNav:not(.expanded) {
     position: relative;
     width: 40px;
     height: 40px;
-    background-color: #0065ae;
+    background-color: #e20017;
 }
 
 #mainNav .lupa a:after {
@@ -305,24 +305,24 @@ body.home #mainNav:not(.expanded) {
     background-repeat: no-repeat;
 }
 
-body.home #mainNav:not(.navbar-shrink) li.sep {
+/*body.home #mainNav:not(.navbar-shrink) li.sep {
     border-left: 1px solid #788284;
 }
 
 body.home #mainNav:not(.navbar-shrink) .nav-slogan {
     border-left: 1px solid #788284;
-}
+}*/
 
 #mainNav .nav-slogan {
     display: none;
     position: relative;
     font-size: 14px;
     font-size: 0.88rem;
-    color: #fff;
+    color: #454544;
     line-height: 14px;
     font-weight: 500;
     padding-left: 25px;
-    border-left: 1px solid #6ec7b9;
+    /*border-left: 1px solid #6ec7b9;*/
 }
 
 #mainNav li.sep {
@@ -339,13 +339,13 @@ body.home #mainNav:not(.navbar-shrink) .nav-slogan {
     position: relative;
     font-size: 14px;
     font-size: 0.88rem;
-    color: #fff;
+    color: #454544;
     line-height: 14px;
 }
 
 #mainNav .navbar-nav li.nav-item .nav-link:active,
 #mainNav .navbar-nav li.nav-item .nav-link:focus {
-    color: #fff;
+    color: #454544;
 }
 
 #mainNav .navbar-nav li.nav-item .nav-link.active {
@@ -425,7 +425,7 @@ body.home #mainNav:not(.navbar-shrink) .nav-slogan {
     #mainNav.navbar-shrink {
         /*padding-top: 0.5rem;
     padding-bottom: 0.5rem;*/
-        background-color: #0da28c !important;
+        background-color: #ebebeb !important;
     }
     #mainNav.navbar-shrink li.sep,
     #mainNav.navbar-shrink .nav-slogan {
@@ -450,7 +450,7 @@ body.home #mainNav:not(.navbar-shrink) .nav-slogan {
     content: '';
     position: absolute;
     width: 0;
-    border-bottom: 2px solid #0065ae;
+    /*border-bottom: 2px solid #0065ae*/;
     left: 50%;
     bottom: 2px;
     transition: 0.4s;
@@ -1023,7 +1023,7 @@ form .row:first-child .floating-label-form-group {
 
 section#tv {
     padding: 90px 0 110px;
-    background-color: #eb5d49;
+    background-color: #0d6ec9;
 }
 
 section#tv .flex {
@@ -1067,7 +1067,7 @@ section#tv .titles h3:before {
     content: '';
     width: 56px;
     height: 56px;
-    background-color: #f7a245;
+    background-color: #e2001a;
     border-radius: 50%;
     position: absolute;
     top: -20px;
@@ -1082,7 +1082,7 @@ section#tv .titles h3:after {
     content: '';
     width: 84px;
     height: 84px;
-    border: 1px solid #f7a245;
+    border: 1px solid #e2001a;
     border-radius: 50%;
     position: absolute;
     top: -34px;
@@ -1132,7 +1132,7 @@ section#tv .navigation .next {
     display: inline-block;
     width: 46px;
     height: 46px;
-    background-color: #14af97;
+    background-color: #3a474f;
     border-radius: 50%;
     background-image: url(../img/icon-arrow-right.png);
     background-position: center;
@@ -1144,7 +1144,7 @@ section#tv .navigation .prev {
     display: inline-block;
     width: 46px;
     height: 46px;
-    background-color: #14af97;
+    background-color: #3a474f;
     border-radius: 50%;
     background-image: url(../img/icon-arrow-left.png);
     background-position: center;
@@ -1208,7 +1208,7 @@ section#tv .slide .swiper-slide a span:before {
     content: '';
     width: 28px;
     height: 28px;
-    background-color: #f7a245;
+    background-color: #e20017;
     border-radius: 50%;
     position: absolute;
     top: -1px;
@@ -1265,7 +1265,7 @@ section#blog .news .infos .tag {
     margin-right: 15px;
     font-size: 12px;
     color: #FFFFFF;
-    background-color: #14af97;
+    background-color: #e20017;
     border-radius: 4px;
 }
 
@@ -1400,9 +1400,8 @@ section#cursos .title span {
 .footer {
     padding: 55px 0;
     padding: 3.44rem 0;
-    background-color: #0da28c;
-    color: #fff;
-    background-color: #2d5e65;
+    color: #828587;
+    background-color: #ced4d8;
 }
 
 .footer .logo-footer {
@@ -1548,22 +1547,19 @@ section#cursos .title span {
 .footer .menu-footer {
     float: left;
     display: none;
-    width: 400px;
+    margin-left: 50px;
     margin-right: 25px;
 }
 
 .footer .menu-footer ul {
     list-style: none;
     padding: 0;
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
     margin-bottom: 0;
 }
 
 .footer .menu-footer ul li {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     font-weight: 700;
