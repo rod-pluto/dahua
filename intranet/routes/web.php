@@ -13,7 +13,12 @@
 
 Route::get('/', 'Web\HomeController@index')->name('web.home');
 
+/** Rotas de autenticação */
+Auth::routes();
 
+Route::get('/home', 'HomeController@index')->name('home');
+
+/** Painel Administrativo */
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
