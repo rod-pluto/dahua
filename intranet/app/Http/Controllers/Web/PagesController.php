@@ -7,5 +7,7 @@ use App\Http\Controllers\Controller;
 
 class PagesController extends Controller
 {
-    //
+    public function show( $slug ) {
+
+    }
 }

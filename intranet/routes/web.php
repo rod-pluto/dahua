@@ -11,7 +11,17 @@
 |
 */
 
-Route::get('/', 'Web\HomeController@index')->name('web.home');
+
+/**
+ * Rotas Públicas
+ */
+Route::group(['namespace' => 'Web'],function( $web ) {
+    $web->get('/', 'HomeController@index')->name('web.home');
+
+    /** Quero ser um parceiro */
+    $web->get('quero-ser-um-parceiro', 'PartnersController@create')->name('web.partner.create');
+    $web->post('quero-ser-um-parceiro', 'PartnersController@store')->name('web.partner.store');
+});
 
 /** Rotas de autenticação */
 Auth::routes();

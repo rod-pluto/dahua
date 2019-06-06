@@ -211,7 +211,7 @@ CREATE TABLE `menu_items` (
 
 LOCK TABLES `menu_items` WRITE;
 /*!40000 ALTER TABLE `menu_items` DISABLE KEYS */;
-INSERT INTO `menu_items` VALUES (1,1,'Dashboard','','_self','voyager-boat',NULL,NULL,1,'2019-05-29 03:28:16','2019-05-29 03:28:16','voyager.dashboard',NULL),(2,1,'Media','','_self','voyager-images',NULL,NULL,8,'2019-05-29 03:28:16','2019-06-01 15:23:38','voyager.media.index',NULL),(3,1,'Usuários','','_self','voyager-people','#000000',38,2,'2019-05-29 03:28:16','2019-06-01 15:09:23','voyager.users.index','null'),(4,1,'Permissões','','_self','voyager-lock','#000000',38,1,'2019-05-29 03:28:16','2019-06-01 15:08:53','voyager.roles.index','null'),(5,1,'Tools','','_self','voyager-tools',NULL,NULL,9,'2019-05-29 03:28:16','2019-06-01 15:23:38',NULL,NULL),(6,1,'Menu Builder','','_self','voyager-list',NULL,5,1,'2019-05-29 03:28:16','2019-05-31 20:02:14','voyager.menus.index',NULL),(7,1,'Database','','_self','voyager-data',NULL,5,2,'2019-05-29 03:28:16','2019-05-31 20:02:14','voyager.database.index',NULL),(8,1,'Compass','','_self','voyager-compass',NULL,5,3,'2019-05-29 03:28:16','2019-05-31 20:02:14','voyager.compass.index',NULL),(9,1,'BREAD','','_self','voyager-bread',NULL,5,4,'2019-05-29 03:28:16','2019-05-31 20:02:14','voyager.bread.index',NULL),(10,1,'Settings','','_self','voyager-settings',NULL,NULL,10,'2019-05-29 03:28:16','2019-06-01 15:23:38','voyager.settings.index',NULL),(11,1,'Hooks','','_self','voyager-hook',NULL,5,5,'2019-05-29 03:28:19','2019-05-31 20:02:14','voyager.hooks',NULL),(12,1,'Categorias','','_self','voyager-categories','#000000',15,2,'2019-05-31 19:57:14','2019-06-01 01:50:08','voyager.categories.index','null'),(13,1,'Artigos','','_self','voyager-news','#000000',15,1,'2019-05-31 19:57:15','2019-06-01 01:50:08','voyager.posts.index','null'),(14,1,'Páginas','','_self','voyager-file-text','#000000',15,3,'2019-05-31 19:57:16','2019-06-01 01:52:14','voyager.pages.index','null'),(15,1,'Blog','','_self','voyager-news','#000000',NULL,3,'2019-05-31 20:01:55','2019-06-01 15:08:34',NULL,''),(17,1,'Videos','','_self','voyager-video','#000000',NULL,7,'2019-05-31 21:04:52','2019-06-01 15:23:38','voyager.videos.index','null'),(18,1,'Cursos','','_self','voyager-tv',NULL,NULL,4,'2019-06-01 01:49:13','2019-06-01 15:08:34','voyager.courses.index',NULL),(19,8,'item 1','','_self',NULL,'#000000',NULL,10,'2019-06-01 03:30:57','2019-06-01 03:30:57',NULL,''),(20,8,'item 2','','_self',NULL,'#000000',NULL,11,'2019-06-01 03:31:03','2019-06-01 03:31:03',NULL,''),(21,8,'item 3','','_self',NULL,'#000000',NULL,12,'2019-06-01 03:31:09','2019-06-01 03:31:24',NULL,''),(22,8,'item 4','','_self',NULL,'#000000',NULL,13,'2019-06-01 03:31:18','2019-06-01 03:31:18',NULL,''),(23,7,'item 1','','_self',NULL,'#000000',NULL,14,'2019-06-01 03:31:49','2019-06-01 03:31:49',NULL,''),(24,7,'item 2','','_self',NULL,'#000000',NULL,15,'2019-06-01 03:31:55','2019-06-01 03:31:55',NULL,''),(25,7,'item 3','','_self',NULL,'#000000',NULL,16,'2019-06-01 03:32:01','2019-06-01 03:32:01',NULL,''),(26,7,'item 4','','_self',NULL,'#000000',NULL,17,'2019-06-01 03:32:07','2019-06-01 03:32:07',NULL,''),(27,9,'My Dahua','','_self',NULL,'#000000',NULL,18,'2019-06-01 03:38:33','2019-06-01 03:38:33',NULL,''),(28,9,'Marketing','','_self',NULL,'#000000',NULL,19,'2019-06-01 03:38:40','2019-06-01 03:38:40',NULL,''),(29,9,'Dahua Academy','','_self',NULL,'#000000',NULL,20,'2019-06-01 03:38:48','2019-06-01 03:38:48',NULL,''),(30,9,'Ferramentas','','_self',NULL,'#000000',NULL,21,'2019-06-01 03:39:01','2019-06-01 03:39:01',NULL,''),(31,9,'Registro de Projetos','','_self',NULL,'#000000',NULL,22,'2019-06-01 03:39:15','2019-06-01 03:39:15',NULL,''),(32,9,'FAQ','','_self',NULL,'#000000',NULL,23,'2019-06-01 03:39:21','2019-06-01 03:39:21',NULL,''),(33,9,'Chamados','','_self',NULL,'#000000',NULL,24,'2019-06-01 03:39:37','2019-06-01 03:40:56',NULL,''),(34,9,'RMA','','_self',NULL,'#000000',NULL,25,'2019-06-01 03:39:44','2019-06-01 03:39:44',NULL,''),(37,1,'FAQ','','_self','voyager-receipt',NULL,NULL,6,'2019-06-01 15:05:23','2019-06-01 15:23:38','voyager.questions-and-answers.index',NULL),(38,1,'Autenticação','','_self','voyager-person','#000000',NULL,2,'2019-06-01 15:08:26','2019-06-01 15:08:34',NULL,''),(39,1,'Distribuidores','','_self','voyager-group',NULL,NULL,5,'2019-06-01 15:23:17','2019-06-01 15:23:38','voyager.distributors.index',NULL);
+INSERT INTO `menu_items` VALUES (1,1,'Dashboard','','_self','voyager-boat',NULL,NULL,1,'2019-05-29 03:28:16','2019-05-29 03:28:16','voyager.dashboard',NULL),(2,1,'Media','','_self','voyager-images',NULL,NULL,9,'2019-05-29 03:28:16','2019-06-05 14:58:57','voyager.media.index',NULL),(3,1,'Usuários','','_self','voyager-people','#000000',38,2,'2019-05-29 03:28:16','2019-06-01 15:09:23','voyager.users.index','null'),(4,1,'Permissões','','_self','voyager-lock','#000000',38,1,'2019-05-29 03:28:16','2019-06-01 15:08:53','voyager.roles.index','null'),(5,1,'Tools','','_self','voyager-tools',NULL,NULL,10,'2019-05-29 03:28:16','2019-06-05 14:58:57',NULL,NULL),(6,1,'Menu Builder','','_self','voyager-list',NULL,5,1,'2019-05-29 03:28:16','2019-05-31 20:02:14','voyager.menus.index',NULL),(7,1,'Database','','_self','voyager-data',NULL,5,2,'2019-05-29 03:28:16','2019-05-31 20:02:14','voyager.database.index',NULL),(8,1,'Compass','','_self','voyager-compass',NULL,5,3,'2019-05-29 03:28:16','2019-05-31 20:02:14','voyager.compass.index',NULL),(9,1,'BREAD','','_self','voyager-bread',NULL,5,4,'2019-05-29 03:28:16','2019-05-31 20:02:14','voyager.bread.index',NULL),(10,1,'Settings','','_self','voyager-settings',NULL,NULL,11,'2019-05-29 03:28:16','2019-06-05 14:58:57','voyager.settings.index',NULL),(11,1,'Hooks','','_self','voyager-hook',NULL,5,5,'2019-05-29 03:28:19','2019-05-31 20:02:14','voyager.hooks',NULL),(12,1,'Categorias','','_self','voyager-categories','#000000',15,2,'2019-05-31 19:57:14','2019-06-01 01:50:08','voyager.categories.index','null'),(13,1,'Artigos','','_self','voyager-news','#000000',15,1,'2019-05-31 19:57:15','2019-06-01 01:50:08','voyager.posts.index','null'),(14,1,'Páginas','','_self','voyager-file-text','#000000',15,3,'2019-05-31 19:57:16','2019-06-01 01:52:14','voyager.pages.index','null'),(15,1,'Blog','','_self','voyager-news','#000000',NULL,3,'2019-05-31 20:01:55','2019-06-01 15:08:34',NULL,''),(17,1,'Videos','','_self','voyager-video','#000000',NULL,8,'2019-05-31 21:04:52','2019-06-05 14:58:57','voyager.videos.index','null'),(18,1,'Cursos','','_self','voyager-tv',NULL,NULL,4,'2019-06-01 01:49:13','2019-06-01 15:08:34','voyager.courses.index',NULL),(19,8,'item 1','','_self',NULL,'#000000',NULL,10,'2019-06-01 03:30:57','2019-06-01 03:30:57',NULL,''),(20,8,'item 2','','_self',NULL,'#000000',NULL,11,'2019-06-01 03:31:03','2019-06-01 03:31:03',NULL,''),(21,8,'item 3','','_self',NULL,'#000000',NULL,12,'2019-06-01 03:31:09','2019-06-01 03:31:24',NULL,''),(22,8,'item 4','','_self',NULL,'#000000',NULL,13,'2019-06-01 03:31:18','2019-06-01 03:31:18',NULL,''),(23,7,'item 1','','_self',NULL,'#000000',NULL,14,'2019-06-01 03:31:49','2019-06-01 03:31:49',NULL,''),(24,7,'item 2','','_self',NULL,'#000000',NULL,15,'2019-06-01 03:31:55','2019-06-01 03:31:55',NULL,''),(25,7,'item 3','','_self',NULL,'#000000',NULL,16,'2019-06-01 03:32:01','2019-06-01 03:32:01',NULL,''),(26,7,'item 4','','_self',NULL,'#000000',NULL,17,'2019-06-01 03:32:07','2019-06-01 03:32:07',NULL,''),(27,9,'My Dahua','','_self',NULL,'#000000',NULL,18,'2019-06-01 03:38:33','2019-06-01 03:38:33',NULL,''),(28,9,'Marketing','','_self',NULL,'#000000',NULL,19,'2019-06-01 03:38:40','2019-06-01 03:38:40',NULL,''),(29,9,'Dahua Academy','','_self',NULL,'#000000',NULL,20,'2019-06-01 03:38:48','2019-06-01 03:38:48',NULL,''),(30,9,'Ferramentas','','_self',NULL,'#000000',NULL,21,'2019-06-01 03:39:01','2019-06-01 03:39:01',NULL,''),(31,9,'Registro de Projetos','','_self',NULL,'#000000',NULL,22,'2019-06-01 03:39:15','2019-06-01 03:39:15',NULL,''),(32,9,'FAQ','','_self',NULL,'#000000',NULL,23,'2019-06-01 03:39:21','2019-06-01 03:39:21',NULL,''),(33,9,'Chamados','','_self',NULL,'#000000',NULL,24,'2019-06-01 03:39:37','2019-06-01 03:40:56',NULL,''),(34,9,'RMA','','_self',NULL,'#000000',NULL,25,'2019-06-01 03:39:44','2019-06-01 03:39:44',NULL,''),(37,1,'FAQ','','_self','voyager-receipt',NULL,NULL,7,'2019-06-01 15:05:23','2019-06-05 14:58:57','voyager.questions-and-answers.index',NULL),(38,1,'Autenticação','','_self','voyager-person','#000000',NULL,2,'2019-06-01 15:08:26','2019-06-01 15:08:34',NULL,''),(39,1,'Distribuidores','','_self','voyager-group',NULL,NULL,5,'2019-06-01 15:23:17','2019-06-01 15:23:38','voyager.distributors.index',NULL);
 /*!40000 ALTER TABLE `menu_items` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -300,6 +300,35 @@ LOCK TABLES `pages` WRITE;
 /*!40000 ALTER TABLE `pages` DISABLE KEYS */;
 INSERT INTO `pages` VALUES (1,0,'Hello World','Hang the jib grog grog blossom grapple dance the hempen jig gangway pressgang bilge rat to go on account lugger. Nelsons folly gabion line draught scallywag fire ship gaff fluke fathom case shot. Sea Legs bilge rat sloop matey gabion long clothes run a shot across the bow Gold Road cog league.','<p>Hello World. Scallywag grog swab Cat o\'nine tails scuttle rigging hardtack cable nipper Yellow Jack. Handsomely spirits knave lad killick landlubber or just lubber deadlights chantey pinnace crack Jennys tea cup. Provost long clothes black spot Yellow Jack bilged on her anchor league lateen sail case shot lee tackle.</p>\n<p>Ballast spirits fluke topmast me quarterdeck schooner landlubber or just lubber gabion belaying pin. Pinnace stern galleon starboard warp carouser to go on account dance the hempen jig jolly boat measured fer yer chains. Man-of-war fire in the hole nipperkin handsomely doubloon barkadeer Brethren of the Coast gibbet driver squiffy.</p>','pages/page1.jpg','hello-world','Yar Meta Description','Keyword1, Keyword2','ACTIVE','2019-05-31 19:57:16','2019-05-31 19:57:16');
 /*!40000 ALTER TABLE `pages` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `partners`
+--
+
+DROP TABLE IF EXISTS `partners`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `partners` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `company` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `message` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `cellphone` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `looking_for` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `partners`
+--
+
+LOCK TABLES `partners` WRITE;
+/*!40000 ALTER TABLE `partners` DISABLE KEYS */;
+/*!40000 ALTER TABLE `partners` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -434,7 +463,7 @@ CREATE TABLE `questions_and_answers` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -443,6 +472,7 @@ CREATE TABLE `questions_and_answers` (
 
 LOCK TABLES `questions_and_answers` WRITE;
 /*!40000 ALTER TABLE `questions_and_answers` DISABLE KEYS */;
+INSERT INTO `questions_and_answers` VALUES (1,'Pergunta 1','Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Mé faiz elementum girarzis, nisi eros vermeio. Delegadis gente finis, bibendum egestas augue arcu ut est. Paisis, filhis, espiritis santis.\r\n\r\nTodo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Si num tem leite então bota uma pinga aí cumpadi! Quem num gosta di mim que vai caçá sua turmis! Manduma pindureta quium dia nois paga.','2019-06-02 18:49:14','2019-06-02 18:49:14'),(2,'Pergunta 2','Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Mé faiz elementum girarzis, nisi eros vermeio. Delegadis gente finis, bibendum egestas augue arcu ut est. Paisis, filhis, espiritis santis.','2019-06-02 18:49:27','2019-06-02 18:49:27'),(3,'Pergunta 3','Mussum Ipsum, cacilds vidis litro abertis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Si num tem leite então bota uma pinga aí cumpadi! Não sou faixa preta cumpadi, sou preto inteiris, inteiris.\r\n\r\nPra lá , depois divoltis porris, paradis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Mé faiz elementum girarzis, nisi eros vermeio. Leite de capivaris, leite de mula manquis sem cabeça.\r\n\r\nAenean aliquam molestie leo, vitae iaculis nisl. Suco de cevadiss deixa as pessoas mais interessantis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.','2019-06-02 18:49:39','2019-06-02 18:49:39'),(4,'Pergunta 4','Mussum Ipsum, cacilds vidis litro abertis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Si num tem leite então bota uma pinga aí cumpadi! Não sou faixa preta cumpadi, sou preto inteiris, inteiris.\r\n\r\nPra lá , depois divoltis porris, paradis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Mé faiz elementum girarzis, nisi eros vermeio. Leite de capivaris, leite de mula manquis sem cabeça.','2019-06-02 18:49:49','2019-06-02 18:49:49');
 /*!40000 ALTER TABLE `questions_and_answers` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -461,7 +491,7 @@ CREATE TABLE `roles` (
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `roles_name_unique` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -470,7 +500,7 @@ CREATE TABLE `roles` (
 
 LOCK TABLES `roles` WRITE;
 /*!40000 ALTER TABLE `roles` DISABLE KEYS */;
-INSERT INTO `roles` VALUES (1,'admin','Administrator','2019-05-29 03:28:16','2019-05-29 03:28:16'),(2,'user','Normal User','2019-05-29 03:28:16','2019-05-29 03:28:16');
+INSERT INTO `roles` VALUES (1,'admin','Administrator','2019-05-29 03:28:16','2019-05-29 03:28:16'),(2,'user','Normal User','2019-05-29 03:28:16','2019-05-29 03:28:16'),(3,'partner','Parceiro','2019-06-05 15:34:43','2019-06-05 15:34:43');
 /*!40000 ALTER TABLE `roles` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -636,4 +666,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-06-01  9:32:25
+-- Dump completed on 2019-06-05 22:09:24

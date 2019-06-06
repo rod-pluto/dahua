@@ -29,11 +29,9 @@
 
         @include('web.includes.top-nav')
 
-        @include('web.includes.header')
-
         <!-- Main Content -->
         @yield('content')
-        
+
         <!-- Footer -->
 
         @include('web.includes.footer')
